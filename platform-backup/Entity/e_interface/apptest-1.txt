@@ -24,7 +24,7 @@
 	},
 	"id":"apptest-1",
 	"lastModifiedBy":195904,
-	"modifiedTime":1772713844012,
+	"modifiedTime":1772713856352,
 	"ownerUserId":195904,
 	"properties":{
 		"standard":false,
@@ -41,7 +41,7 @@
 				"_mqttTopicCounter":0,
 				"_pageCount":1,
 				"_moduleCount":0,
-				"_variableCounter":1
+				"_variableCounter":2
 			}
 		},
 		"navigation":{
@@ -225,5 +225,5 @@
 	"tags":[
 		
 	],
-	"version":4
+	"version":5
 }
