@@ -1,0 +1,30 @@
+{
+	"active":true,
+	"cacheResponse":false,
+	"collectionId":"682c9ef9f2f9614527b8b3ef",
+	"createdTime":1747754757753,
+	"customizeTimeout":false,
+	"deleted":true,
+	"enableCanaryDeployment":false,
+	"enableNodeLevelLogging":true,
+	"enableRunLogging":true,
+	"enableVariableLogging":true,
+	"endpointUrl":"enlvpokfzs/RaJaOCREOB?resourceId={{RESOURCE_ID}}",
+	"httpMethod":"POST",
+	"id":"682c9f05f2f9614527b8b3fe",
+	"lastModifiedBy":522,
+	"lcName":"lniwfcjzmsrvzqsqvtuk",
+	"modifiedTime":1747755101755,
+	"name":"lNIWfcJzMsrvZqSQvtuk",
+	"ownerUserId":522,
+	"path":"RaJaOCREOB",
+	"resourceIds":[
+		"667a3ab6d1d92d0a308dad0c"
+	],
+	"resourceType":"WEBHOOK_WORKFLOW",
+	"standard":false,
+	"supportedHttpMethods":[
+		"POST"
+	],
+	"version":2
+}
