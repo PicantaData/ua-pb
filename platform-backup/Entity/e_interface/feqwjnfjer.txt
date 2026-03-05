@@ -2,10 +2,10 @@
 	"createdTime":1771074450939,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1772706785907,
+		"deployedAt":1772707054579,
 		"deployedBy":30181,
-		"entityVersion":147,
-		"version":93
+		"entityVersion":148,
+		"version":94
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -29,8 +29,8 @@
 		]
 	},
 	"id":"feqwjnfjer",
-	"lastModifiedBy":30181,
-	"modifiedTime":1772707045750,
+	"lastModifiedBy":195854,
+	"modifiedTime":1772707110970,
 	"ownerUserId":193381,
 	"properties":{
 		"standard":false,
@@ -45,14 +45,15 @@
 			},
 			"_counter":{
 				"_mqttTopicCounter":0,
-				"_pageCount":6,
+				"_pageCount":7,
 				"_moduleCount":1,
 				"_variableCounter":1
 			}
 		},
 		"publicPageIds":[
 			"feqwjnfjer_login",
-			"feqwjnfjer_mfa_verification"
+			"feqwjnfjer_mfa_verification",
+			"e_69a95d2671bb461b8f85d8ef"
 		],
 		"manifest":{
 			"type":"WEB"
@@ -69,7 +70,7 @@
 			]
 		},
 		"customCode":{
-			"footer":""
+			"footer":"<script>\n(function initCaretFix() {\n  let debounce = null;\n  let resetting = false;\n\n  document.addEventListener('input', (e) => {\n    if (resetting) return;\n    const el = e.target;\n    if (el.tagName !== 'INPUT' && el.tagName !== 'TEXTAREA') return;\n\n    const form = el.closest('[data-block-id=\"b_HmYoU\"]');\n    if (!form || !form.querySelector('.field-error-template')) return;\n\n    console.log('[CaretFix] Scheduling reflow for:', el.name || el.id, '| type:', el.type);\n\n    clearTimeout(debounce);\n    debounce = setTimeout(() => {\n      resetting = true;\n\n      // Reflow input\n      el.style.opacity = '0.99';\n      el.style.transform = 'translateZ(1px)';\n\n      // Reflow MUI input wrapper\n      const inputWrapper = el.closest('.MuiInput-root');\n      if (inputWrapper) {\n        inputWrapper.style.opacity = '0.99';\n        inputWrapper.style.transform = 'translateZ(1px)';\n      }\n\n      // Reflow field container\n      const fieldContainer = el.closest('.MuiFormControl-root');\n      if (fieldContainer) {\n        fieldContainer.style.opacity = '0.99';\n        fieldContainer.style.transform = 'translateZ(1px)';\n      }\n\n      requestAnimationFrame(() => {\n        requestAnimationFrame(() => {\n          el.style.opacity = '';\n          el.style.transform = '';\n\n          if (inputWrapper) {\n            inputWrapper.style.opacity = '';\n            inputWrapper.style.transform = '';\n          }\n\n          if (fieldContainer) {\n            fieldContainer.style.opacity = '';\n            fieldContainer.style.transform = '';\n          }\n\n          console.log('[CaretFix] Reflow complete (input + wrapper + field)');\n          setTimeout(() => { resetting = false; }, 100);\n        });\n      });\n    }, 50);\n  });\n\n  console.log('[CaretFix] Initialized');\n})();\n</script>"
 		},
 		"navigation":{
 			"secondary":[],
@@ -235,6 +236,7 @@
 			"e_6995a05440d39631ff86ce19":"",
 			"e_69a6dc1f54cc0975ecc5f76a":"page-5",
 			"e_69908bbd4d32003bfffb2ed8":"page-2",
+			"e_69a95d2671bb461b8f85d8ef":"login-_9D3H5",
 			"e_global_feqwjnfjer":"global-page-of-feqwjnfjer",
 			"e_69a95100b2e4de0a625f73b7":"page-6",
 			"feqwjnfjer_login":"login",
@@ -287,5 +289,5 @@
 		}
 	},
 	"standard":false,
-	"version":148
+	"version":149
 }
