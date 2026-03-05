@@ -2,10 +2,10 @@
 	"createdTime":1765817242715,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1772019226882,
-		"deployedBy":106,
-		"entityVersion":3441,
-		"version":1080
+		"deployedAt":1772713382967,
+		"deployedBy":195322,
+		"entityVersion":3458,
+		"version":1081
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -72,8 +72,8 @@
 		]
 	},
 	"id":"ai-enterprise-search",
-	"lastModifiedBy":45768,
-	"modifiedTime":1772712716709,
+	"lastModifiedBy":195322,
+	"modifiedTime":1772713520176,
 	"ownerUserId":325,
 	"projectId":0,
 	"properties":{
@@ -232,34 +232,6 @@
 						{
 							"id":"nav_e2sSb",
 							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_xa0hw",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_wqx14",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_0rxbt",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_etmxu",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_dbi0w",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_lj0kl",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_pbs7u",
-							"hiddenInOverflow":false
 						}
 					]
 				},
@@ -326,34 +298,6 @@
 						},
 						{
 							"id":"nav_e2sSb",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_xa0hw",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_wqx14",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_0rxbt",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_etmxu",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_dbi0w",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_lj0kl",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_pbs7u",
 							"hiddenInOverflow":false
 						}
 					]
@@ -437,34 +381,6 @@
 						{
 							"id":"nav_e2sSb",
 							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_xa0hw",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_wqx14",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_0rxbt",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_etmxu",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_dbi0w",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_lj0kl",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_pbs7u",
-							"hiddenInOverflow":false
 						}
 					]
 				},
@@ -532,34 +448,6 @@
 						{
 							"id":"nav_e2sSb",
 							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_xa0hw",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_wqx14",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_0rxbt",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_etmxu",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_dbi0w",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_lj0kl",
-							"hiddenInOverflow":false
-						},
-						{
-							"id":"nav_pbs7u",
-							"hiddenInOverflow":false
 						}
 					]
 				}
@@ -568,12 +456,7 @@
 				{
 					"activeIcon":"AiAgentSolid",
 					"permissions":{
-						"69846219932dee700971f264":[
-							"gWfr_Jp6a4GqDCCvOyYc2",
-							"GwgCNcDkQYQz1sNGYyaYl",
-							"tZr_QcNUVK1gT2OLO230S",
-							"mMnXJECnVOijAC1f1HB0v"
-						]
+						"69846219932dee700971f264":[]
 					},
 					"name":"Agents",
 					"icon":"SvgAiAgent",
@@ -605,117 +488,6 @@
 					"pageId":"e_69403b9c09e148527d8dbb83",
 					"url":"",
 					"slug":"search"
-				},
-				{
-					"activeIcon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogMQ6pAA54lNUNjVZw%2F1RKK8%2B23K565nCYqPdsU%2BwcdpfxW4PQVjSW90",
-					"permissions":{
-						"69822e3393d9f9659c670dba":[
-							"gWfr_Jp6a4GqDCCvOyYc2",
-							"GwgCNcDkQYQz1sNGYyaYl",
-							"tZr_QcNUVK1gT2OLO230S",
-							"mMnXJECnVOijAC1f1HB0v"
-						]
-					},
-					"icon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogMQ6pAA54lNUNjVZw%2F1RKK8%2B23K565nCYqPdsU%2BwcdpfxW4PQVjSW90",
-					"name":"Nav Item",
-					"id":"nav_xa0hw",
-					"type":"MODULE",
-					"moduleId":"e_6967cb84964e59340655b4b5",
-					"slug":"test1"
-				},
-				{
-					"activeIcon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogMQ6pAA54lNUNjVZw%2F1RKK8%2B23K565nCYqPdsU%2BwcdpfxW4PQVjSW90",
-					"permissions":{
-						"699c5f0b55dd7c614c13eee5":[
-							"gWfr_Jp6a4GqDCCvOyYc2",
-							"GwgCNcDkQYQz1sNGYyaYl",
-							"tZr_QcNUVK1gT2OLO230S",
-							"mMnXJECnVOijAC1f1HB0v"
-						]
-					},
-					"icon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogMQ6pAA54lNUNjVZw%2F1RKK8%2B23K565nCYqPdsU%2BwcdpfxW4PQVjSW90",
-					"name":"Nav Item7",
-					"id":"nav_wqx14",
-					"type":"MODULE",
-					"moduleId":"e_69680c5b964e593406561864",
-					"slug":"test"
-				},
-				{
-					"activeIcon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogMQ6pAA54lNUNjVZw%2F1RKK8%2B23K565nCYqPdsU%2BwcdpfxW4PQVjSW90",
-					"icon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogMQ6pAA54lNUNjVZw%2F1RKK8%2B23K565nCYqPdsU%2BwcdpfxW4PQVjSW90",
-					"name":"Nav Item10",
-					"id":"nav_0rxbt",
-					"type":"MODULE",
-					"moduleId":"e_6967ce19964e59340655b9ae",
-					"slug":"test1"
-				},
-				{
-					"activeIcon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogMQ6pAA54lNUNjVZw%2F1RKK8%2B23K565nCYqPdsU%2BwcdpfxW4PQVjSW90",
-					"permissions":{
-						"69831fb627741567edf64f06":[
-							"gWfr_Jp6a4GqDCCvOyYc2",
-							"GwgCNcDkQYQz1sNGYyaYl",
-							"tZr_QcNUVK1gT2OLO230S",
-							"mMnXJECnVOijAC1f1HB0v"
-						]
-					},
-					"icon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogMQ6pAA54lNUNjVZw%2F1RKK8%2B23K565nCYqPdsU%2BwcdpfxW4PQVjSW90",
-					"name":"Nav Item45",
-					"id":"nav_etmxu",
-					"type":"MODULE",
-					"moduleId":"e_69680c5b964e593406561864",
-					"slug":"test"
-				},
-				{
-					"activeIcon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogMQ6pAA54lNUNjVZw%2F1RKK8%2B23K565nCYqPdsU%2BwcdpfxW4PQVjSW90",
-					"permissions":{
-						"6984670d932dee700971f26c":[
-							"gWfr_Jp6a4GqDCCvOyYc2",
-							"GwgCNcDkQYQz1sNGYyaYl",
-							"tZr_QcNUVK1gT2OLO230S",
-							"mMnXJECnVOijAC1f1HB0v"
-						]
-					},
-					"icon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogMQ6pAA54lNUNjVZw%2F1RKK8%2B23K565nCYqPdsU%2BwcdpfxW4PQVjSW90",
-					"name":"Nav Item",
-					"id":"nav_dbi0w",
-					"type":"MODULE",
-					"moduleId":"e_69721581c32fa87a249c276a",
-					"slug":"test"
-				},
-				{
-					"activeIcon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogwf7pQA4IxIVtjHa0PiVOeC%2FWGK4PZzU6YlaFLXF3qWZFc8k07nqg%3D%3D",
-					"permissions":{
-						"699c5ebe55dd7c614c13eee1":[
-							"gWfr_Jp6a4GqDCCvOyYc2",
-							"GwgCNcDkQYQz1sNGYyaYl",
-							"tZr_QcNUVK1gT2OLO230S",
-							"mMnXJECnVOijAC1f1HB0v"
-						]
-					},
-					"icon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogwf7pQA4IxIVtjHa0PiVOeC%2FWGK4PZzU6YlaFLXF3qWZFc8k07nqg%3D%3D",
-					"name":"test",
-					"id":"nav_lj0kl",
-					"type":"MODULE",
-					"moduleId":"e_698da496f90ec6778a2c96ff",
-					"slug":"heyy"
-				},
-				{
-					"activeIcon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogwf7pUE74xCV9jVZw%2F9UuKy7nGK4PZzTP5I6HaYxi2iQcBvtaXY2w%3D%3D",
-					"permissions":{
-						"699c5edc55dd7c614c13eee3":[
-							"gWfr_Jp6a4GqDCCvOyYc2",
-							"GwgCNcDkQYQz1sNGYyaYl",
-							"tZr_QcNUVK1gT2OLO230S",
-							"mMnXJECnVOijAC1f1HB0v"
-						]
-					},
-					"icon":"/api/file/download/__UNIFY_ENCR_UNIFYAPPS__V3__eUyHSsActGkfSGnoeZIdT9aeogwf7pUE74xCV9jVZw%2F9UuKy7nGK4PZzTP5I6HaYxi2iQcBvtaXY2w%3D%3D",
-					"name":"hello",
-					"id":"nav_pbs7u",
-					"type":"MODULE",
-					"moduleId":"e_698dc3b6ecea1817044bdf13",
-					"slug":"hy"
 				}
 			]
 		},
@@ -906,28 +678,8 @@
 			"appAnalytics":{
 				"enabled":true
 			}
-		},
-		"entityDetailsMap":{
-			"e_698da496f90ec6778a2c96ff":{
-				"slug":"heyy"
-			},
-			"e_698dc3b6ecea1817044bdf13":{
-				"slug":"hy"
-			},
-			"e_6967cb84964e59340655b4b5":{
-				"slug":"test1"
-			},
-			"e_6967ce19964e59340655b9ae":{
-				"slug":"test1"
-			},
-			"e_69721581c32fa87a249c276a":{
-				"slug":"test"
-			},
-			"e_69680c5b964e593406561864":{
-				"slug":"test"
-			}
 		}
 	},
 	"standard":false,
-	"version":3456
+	"version":3459
 }
