@@ -2,10 +2,10 @@
 	"createdTime":1772708055318,
 	"deleted":false,
 	"deploymentState":{
-		"deployedAt":1772710419143,
+		"deployedAt":1772711432686,
 		"deployedBy":30181,
-		"entityVersion":10,
-		"version":9
+		"entityVersion":12,
+		"version":11
 	},
 	"entityType":"e_interface",
 	"grants":{
@@ -30,7 +30,7 @@
 	},
 	"id":"feqwjnfjer-clone",
 	"lastModifiedBy":30181,
-	"modifiedTime":1772711091014,
+	"modifiedTime":1772712003801,
 	"ownerUserId":30181,
 	"properties":{
 		"standard":false,
@@ -71,7 +71,7 @@
 			]
 		},
 		"customCode":{
-			"footer":"<script>\n(function initCaretFix() {\n  let debounce = null;\n  let resetting = false;\n  let lockedField = null;\n\n  document.addEventListener('input', (e) => {\n    if (resetting) return;\n    const el = e.target;\n    if (el.tagName !== 'INPUT' && el.tagName !== 'TEXTAREA') return;\n\n    const form = el.closest('[data-block-id=\"b_HmYoU\"]');\n    if (!form) return;\n\n    const formField = el.closest('.MuiFormControl-root');\n    if (!formField) return;\n\n    const hasErrors = formField.querySelector('.field-error-template');\n    if (!hasErrors) {\n      console.log('[CaretFix] No errors, skipping');\n      return;\n    }\n\n    console.log('[CaretFix] Error present, scheduling fix for:', el.name || el.id);\n\n    clearTimeout(debounce);\n    debounce = setTimeout(() => {\n      resetting = true;\n\n      // Release to get true height, then re-lock\n      formField.style.height = '';\n\n      requestAnimationFrame(() => {\n        // Lock at new true height\n        formField.style.height = formField.getBoundingClientRect().height + 'px';\n        lockedField = formField;\n        console.log('[CaretFix] Height locked:', formField.style.height);\n\n        setTimeout(() => { resetting = false; }, 100);\n      });\n    }, 50);\n  });\n\n  // Release height on blur\n  document.addEventListener('focusout', (e) => {\n    if (lockedField) {\n      lockedField.style.height = '';\n      console.log('[CaretFix] Height released on blur');\n      lockedField = null;\n    }\n  });\n\n  console.log('[CaretFix] Initialized');\n})();\n</script>"
+			"footer":"<script>\n(function initCaretFix() {\n  let debounce = null;\n  let resetting = false;\n  let lockedField = null;\n\n  const applyFix = (el, formField) => {\n    if (resetting) return;\n\n    console.log('[CaretFix] Fix for:', el.name || el.id);\n\n    clearTimeout(debounce);\n    debounce = setTimeout(() => {\n      resetting = true;\n\n      el.style.opacity = '0.99';\n      el.style.transform = 'translateZ(1px)';\n\n      formField.style.height = '';\n\n      requestAnimationFrame(() => {\n        requestAnimationFrame(() => {\n          el.style.opacity = '';\n          el.style.transform = '';\n\n          const stillHasErrors = formField.querySelector('.field-error-template');\n          if (stillHasErrors) {\n            formField.style.height = formField.getBoundingClientRect().height + 'px';\n            lockedField = formField;\n            console.log('[CaretFix] Height locked:', formField.style.height);\n          } else {\n            formField.style.height = '';\n            lockedField = null;\n            console.log('[CaretFix] No errors, released');\n          }\n\n          setTimeout(() => { resetting = false; }, 100);\n        });\n      });\n    }, 50);\n  };\n\n  // Lock height on focus if errors already present\n  document.addEventListener('focusin', (e) => {\n    const el = e.target;\n    if (el.tagName !== 'INPUT' && el.tagName !== 'TEXTAREA') return;\n\n    const form = el.closest('[data-block-id=\"b_HmYoU\"]');\n    if (!form) return;\n\n    const formField = el.closest('.MuiFormControl-root');\n    if (!formField) return;\n\n    const hasErrors = formField.querySelector('.field-error-template');\n    if (hasErrors) {\n      formField.style.height = formField.getBoundingClientRect().height + 'px';\n      lockedField = formField;\n      console.log('[CaretFix] Focus — height locked:', formField.style.height);\n    }\n  });\n\n  // Handle typing\n  document.addEventListener('input', (e) => {\n    if (resetting) return;\n    const el = e.target;\n    if (el.tagName !== 'INPUT' && el.tagName !== 'TEXTAREA') return;\n\n    const form = el.closest('[data-block-id=\"b_HmYoU\"]');\n    if (!form) return;\n\n    const formField = el.closest('.MuiFormControl-root');\n    if (!formField) return;\n\n    const hasErrors = formField.querySelector('.field-error-template');\n\n    if (!hasErrors && lockedField !== formField) return;\n\n    if (!hasErrors && lockedField === formField) {\n      formField.style.height = '';\n      lockedField = null;\n      console.log('[CaretFix] Errors gone, released');\n      return;\n    }\n\n    applyFix(el, formField);\n  });\n\n  // Release on blur\n  document.addEventListener('focusout', (e) => {\n    if (lockedField) {\n      lockedField.style.height = '';\n      lockedField = null;\n      console.log('[CaretFix] Blur — released');\n    }\n  });\n\n  console.log('[CaretFix] Initialized');\n})();\n</script>"
 		},
 		"navigation":{
 			"secondary":[],
@@ -290,5 +290,5 @@
 		}
 	},
 	"standard":false,
-	"version":11
+	"version":13
 }
